@@ -1,6 +1,9 @@
 /* # Media Queries
    ========================================= */
 
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 @mixin mobile-only {
   @media (max-width: 599px) { @content; }
 }
@@ -29,9 +32,9 @@
    ========================================= */
 
 @mixin fontface($face: $default_font_face) {
-  @if $face == sans-serif { font-family:'Nanum Gothic'; src:url('/fonts/NanumGothic.woff')}
-  @else if $face == serif { font-family: "Roboto Slab", Georgia, serif }
-  @else if $face == monospace { font-family: "Roboto Mono", monospace; }
+  @if $face == sans-serif { font-family: "Noto Sans KR";}
+  @else if $face == serif { font-family: ‘Noto Sans KR’; }
+  @else if $face == monospace { font-family: ‘Noto Sans KR’; }
 }
 
 @mixin fontweight($weight: normal, $face: $default_font_face, $color: default) {
