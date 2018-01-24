@@ -86,3 +86,5 @@ plugins:
   - jekyll-sitemap
 
 paginate: 10
+
+disqus_shortname: ksm0814.github.io
