@@ -2,16 +2,16 @@
 title: 리팩토링과 RestController
 teaser:
 category: programming
-tags: [programming, mvc, session, database, sql]
+tags: [programming, mvc, rest, http, annotation]
 ---
 
 <h1>Http 메소드</h1>
 
 질문하기 기능을 담당하는 questionController에 put과 delete mapping으로 수정 삭제 기능 구현
 
-<br/><img src="../i/0130_1.png" style="width: 80%; height: auto;" /><br/>
+<br/><img src="../i/0130_1.png" style="width: 100%; height: auto;" /><br/>
 
-<br/><img src="../i/0130_2.png" style="width: 70%; height: auto;" /><br/>
+<br/><img src="../i/0130_2.png" style="width: 90%; height: auto;" /><br/>
 
 여태까지 배운 http 메소드는 이로써 4개가 됐다.
 
