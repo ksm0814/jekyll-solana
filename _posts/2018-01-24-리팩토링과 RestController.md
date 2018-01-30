@@ -15,11 +15,12 @@ tags: [programming, mvc, session, database, sql]
 
 여태까지 배운 http 메소드는 이로써 4개가 됐다.
 
-<mark>Get</mark>, <mark>Post</mark>, <mark>Put</mark>, <mark>Delete</mark>
+<rb>Get, Post, Put, Delete</rb>
 
 용도나 데이터양 그리고 보안 등의 여러가지 기준에 따라 쓰는게 달라진다.
 
-
+<br/>
+---
 <h1>부모클래스 생성으로 리팩토링</h1>
 
 Question, Answer, User 클래스에 id, createDate, modifiedDate 등이 중복되서 부모를 만들었다.
@@ -38,7 +39,8 @@ Auditing을 적용하기 위한 지정을 한다. 객체를 데이터베이스�
 
 <mark>@EnableJpaAuditing</mark> 하면 수정되는것을 감시해서 annotation 붙은 date를 인식!
 
-
+<br/>
+---
 <h1>RestController 사용</h1>
 
 Controller는 view를 리턴하지만 RestController는 객체 자체를 리턴한다.
