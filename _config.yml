@@ -35,11 +35,10 @@ nav_menu:
 
 # Objects listed here will appear on the /projects.html page.
 projects:
-  - title: Solana
-    teaser: A responsive blog template written in Sass and vanilla JavaScript.
-    url: https://github.com/rlue/jekyll-solana
-    role: Creator
-    category: Frontend Dev
+  - title: Undo
+    teaser: obstacle avoid game made by visual studio with win32 api, c++
+    url: http://www.sungshin.ac.kr/it/html/community/notice.html?bid=it_notice&sc_category=&sch=subject&sc_text=%B0%E6%C1%F8&page=1&idx=122971
+    role: programmer
   - title: Cortana
     teaser: A talking robot. Now available on Google Play?
     url: https://play.google.com/store/apps/details?id=com.microsoft.cortana
