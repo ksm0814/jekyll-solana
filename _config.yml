@@ -17,7 +17,7 @@ repo: https://github.com/ksm0814            # used in footer
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
   - name: Home
-    scheme: /home
+    url: /home
     handle: hello       # you know, to protect you from bots. (handle and domain
     icon: /i/icon1.svg#email
   - name: Posts
