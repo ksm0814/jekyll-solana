@@ -117,6 +117,25 @@
   }
 }
 
+.nameplate__everyday {
+  margin-left: 100;
+  color: inherit;
+
+  @include mobile-only {
+    font-size: 2.5rem;
+  }
+
+  @include tablet-portrait-up {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: lowercase;
+
+    a:active { color: #fff; }
+  }
+}
+
+
 .nameplate--home {
   @include tablet-portrait-up {
     width: 100%;
