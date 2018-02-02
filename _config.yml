@@ -18,7 +18,7 @@ repo: https://github.com/ksm0814            # used in footer
 nav_menu:
   - name: Posts
     url: /
-    icon: /i/icons.svg#posts # icons should be 24x24 px.
+    icon: /i/icon1.svg#posts # icons should be 24x24 px.
   - name: Projects
     url: /projects
     icon: /i/icons.svg#portfolio
