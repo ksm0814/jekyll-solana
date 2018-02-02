@@ -39,16 +39,7 @@ projects:
     teaser: obstacle avoid game made by visual studio with win32 api, c++
     url: http://www.sungshin.ac.kr/it/html/community/notice.html?bid=it_notice&sc_category=&sch=subject&sc_text=%B0%E6%C1%F8&page=1&idx=122971
     role: programmer
-  - title: Cortana
-    teaser: A talking robot. Now available on Google Play?
-    url: https://play.google.com/store/apps/details?id=com.microsoft.cortana
-    role: Core Team
-    category: NLP
-  - title: Rihanna
-    teaser: Possibly another robot. Also available on Google Play.
-    url: https://play.google.com/store/music/artist/Rihanna?id=Arcw2m2ih45qntv3fufub25tyhu
-    role: Contributor
-    category: Algorithmic Composition
+    category: programmer
 
 #################
 # Site Settings #
