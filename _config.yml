@@ -5,8 +5,7 @@
 title: Dreaming           # used in <title> tag & site header
 author: Seoung Min Ko                       # used in a <meta> tag & /feed.xml
 description: >                              # used in a <meta> tag & /feed.xml
-  Hello 911 emergency, there's a handsome guy in my house!
-  Oh wait a second, cancel that. It's only me.
+  Studying Computer Science and trying to learn more about 'how to programming cool! I'm having fun with Web programming, Game Playing.
 slogan: EveryDay!                           # used in site header, beside title
 avatar: /i/myProfile.png                     # used as portrait in site header
 banner: /i/mountains.svg                    # used as background in site header
