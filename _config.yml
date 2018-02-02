@@ -21,10 +21,10 @@ nav_menu:
     handle: hello       # you know, to protect you from bots. (handle and domain
     icon: /i/icon1.svg#email
   - name: Posts
-    url: /posts
+    url: /
     icon: /i/icon1.svg#posts # icons should be 24x24 px.
   - name: Projects
-    url: /
+    url: /projects
     icon: /i/icon1.svg#portfolio
   - name: GitHub
     url: https://github.com/ksm0814
