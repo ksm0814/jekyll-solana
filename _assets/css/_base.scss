@@ -44,6 +44,12 @@ mark {
   padding: 0 0.25rem;
 }
 
+light{
+   @include fontweight(bold);
+   @include highlight(#FFFF5A);
+   padding: 0 0.25rem;
+}
+
 li {
   margin: 0.5rem 0;
   line-height: 1.25;
