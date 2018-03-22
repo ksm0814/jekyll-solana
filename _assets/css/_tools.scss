@@ -41,15 +41,15 @@
   @if $weight == normal {
     @if $color == default { color: #666; }
     @else { color: $color; }
-    @if $face == sans-serif or $face == serif { font-weight: 300; }
+    @if $face == sans-serif or $face == serif { font-weight: 400; }
     @else { font-weight: normal; }
   }
 
   @else if $weight == bold {
     @if $color == default { color: #555; }
     @else { color: $color; }
-    @if $face == sans-serif { font-weight: 500; }
-    @else if $face == serif { font-weight: 400; }
+    @if $face == sans-serif { font-weight: 600; }
+    @else if $face == serif { font-weight: 500; }
     @else { font-weight: bold; }
   }
 }
