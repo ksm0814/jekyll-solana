@@ -24,9 +24,6 @@ nav_menu:
     handle: hello       # you know, to protect you from bots. (handle and domain
     icon: /i/icon1.svg#email
   - names: Posts
-    en: Posts
-    ko: 포스트
-    link: /
     url: /
     icon: /i/icon1.svg#posts # icons should be 24x24 px.
   - name: Projects
