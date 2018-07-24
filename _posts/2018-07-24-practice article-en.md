@@ -1,6 +1,6 @@
 ---
-title: 0625~0629 일상
-teaser: 멘붕
+title: 영어 한국어 테스트
+teaser: 
 category: daily
 tags: [daily]
 lang: [en, ko]
