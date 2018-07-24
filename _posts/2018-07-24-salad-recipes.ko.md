@@ -1,5 +1,6 @@
 ---
 title: 레시피
+layout: posts
 teaser:
 category: daily
 tags: [daily]

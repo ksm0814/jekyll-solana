@@ -12,7 +12,7 @@ banner: /i/mountains.svg                    # used as background in site header
 url: http://solana.ryanlue.com              # used by plugins to generate feed.xml and sitemap.xml
 baseurl: ''                                 # prepended to all absolute filepaths
 repo: https://github.com/ksm0814            # used in footer
-
+permalink: /posts/:title/
 # Objects listed here will appear in the main nav menu.
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
@@ -23,7 +23,7 @@ nav_menu:
     url: /home
     handle: hello       # you know, to protect you from bots. (handle and domain
     icon: /i/icon1.svg#email
-  - names: Posts
+  - name: Posts
     url: /
     icon: /i/icon1.svg#posts # icons should be 24x24 px.
   - name: Projects
