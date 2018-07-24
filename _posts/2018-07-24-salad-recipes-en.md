@@ -5,5 +5,5 @@ category: daily
 tags: [daily]
 lang: en
 ---
-
+{% I18n_Headers %}
 this is article that written by english
