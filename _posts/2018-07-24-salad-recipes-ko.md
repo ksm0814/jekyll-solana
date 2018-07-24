@@ -1,5 +1,5 @@
 ---
-title: 영어 한국어 프랑스어 테스트
+title: 레시피
 teaser:
 category: daily
 tags: [daily]
