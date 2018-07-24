@@ -16,11 +16,17 @@ repo: https://github.com/ksm0814            # used in footer
 # Objects listed here will appear in the main nav menu.
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
-  - name: Home
+  - names: Home
+    en: Home
+    ko: 소개
+    link: /home/
     url: /home
     handle: hello       # you know, to protect you from bots. (handle and domain
     icon: /i/icon1.svg#email
-  - name: Posts
+  - names: Posts
+    en: Posts
+    ko: 포스트
+    link: /
     url: /
     icon: /i/icon1.svg#posts # icons should be 24x24 px.
   - name: Projects
@@ -83,6 +89,6 @@ paginate: 10
 languages: ["en", "sv", "de", "fr", "ko"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css"]
-parallel_localization: true
+parallel_localization: false
 
 disqus_shortname: ksm0814.github.io
