@@ -77,7 +77,12 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
-
+  - jekyll-polyglot
 paginate: 10
+
+languages: ["en", "sv", "de", "fr", "ko"]
+default_lang: "ko"
+exclude_from_localization: ["javascript", "images", "css"]
+parallel_localization: true
 
 disqus_shortname: ksm0814.github.io
