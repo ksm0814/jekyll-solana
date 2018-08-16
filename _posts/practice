@@ -1,0 +1,20 @@
+http -v POST localhost:8080/json
+jsonrpc="2.0"
+method="signUpWithEmail"
+params:='
+[
+  {
+    "email": "test@naver.com",
+    "password": "tested",
+    "gender": "female",
+    "localeInfo":{
+      "languageCode": "20",
+      "countryCode": "kr"
+    },
+    "deviceId": "samsung12345hhhkjh"
+  }
+]
+'
+
+
+http -v POST localhost:8080/json jsonrpc="2.0" method="signUpWithEmail" params:='[{"email":"test@naver.com","password":"tested","gender":"female","localeInfo":{"languageCode":"20","countryCode":"kr"},"deviceId":"samsung"}]'

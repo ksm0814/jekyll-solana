@@ -1,3 +1,62 @@
 1. JPA에 대해 공부하고(책 한권 정독) 기본적인 데이터베이스(조인 개념) 정도는 알도록 하자
 2. login이나 user 관련을 spring security를 통해 다시 구현하고 테스트 코드 보충
 3. 토비의 스프링
+
+
+
+
+
+
+
+1. azar feature 개발 + db까지
+2. 가상의 feature -> api 디자인 + 디비 설계까지 한 사이클을 온전히 독립적으로 할수있다. = 온보딩이 끝났다.
+`일을 하면서 배우자 스타일` 이라 하심
+3. 진님과 상의해서 다음주에 알려주
+4. pr 다 읽어오기
+
+
+
+월요일 스탠덥 전까지!!!
+- accountservice를 사용해서 이메일로 가입을 해보기(httpie 이용)
+내가 앞으로 할것
+- 루트 권한? 또는 다른 권한에서 특정 사용자의 계정으로 로그인하기.
+
+* 0730
+- 지라에서 이슈를 할당 받음 - 루트 권한 사용자의 다른 사용자 계정 접속 api
+- signUpWithEmail을 httpie로 요청보내기
+- tech blog review 달린거 읽고 고쳐서 다시 pr 보내기
+- 파마 예약 물어보기, 약 먹rl
+
+
+* 0731
+          @NotNull String accessToken,
+          @NotNull String kakaoId,
+          @NotNull String gender,
+          int birthYear,
+          @Nullable String email,
+          @NotNull LocaleInfo localeInfo,
+          @Nullable Position position,
+          @NotNull String deviceId,
+          @NotNull String timeZoneId,
+          @NotNull Integer versionCode,
+          @Nullable String inviteId,
+          @NotNull ClientProperties clientProperties,
+          @Nullable ClientSideUserSettings clientSideUserSettings,
+          @Nullable Map<String, String> consents) {
+
+          http -v POST localhost:8080/json jsonrpc="2.0" method="signUpWithKakao" params:='[{
+          "accessToken": "Ch1bcZ2kPuINU_Xsod5CT2_L3fyuW_lxDcUHJAopdtYAAAFk_znO2Q",
+          "kakaoId": "892812639",
+          "gender": "female",
+          "birthYear": 1993,
+          "localeInfo": {"languageCode": "20", "countryCode": "kr"},
+          "deviceId": "samsung_galaxy",
+          "timeZoneId": "timeZone",
+          "versionCode": 1,
+          "clientProperties":
+          }]' id="kakao_signup"
+
+
+User [id=292543, loginType=EMAIL, username=test@naver.com, userLevel=BASIC, simpleName=te••, originalName=test, gender=FEMALE, birthday=1993-12-31, localeLanguageCode=20, localeCountryCode=kr, normalGemBalance=0, bonusGemBalance=0, dateCreated=2018-07-30 14:51:58.0, suspended=false, allUserSuspensions=(omitted), banned=false, dateBanned=null, deleted=false, dateDeleted=null, loginCount=21, dateLastLogin=2018-08-01 11:16:06.0, locationLastLogin=UserLocation{countryName='Somewhere', country='null', countryCode='null', state='', city=''}, deviceIdLastLogin=samsung_galaxy, deviceIdTypeLastLogin=HASHED_ANDROID_ID, regIdLastLogin=null, timeZoneIdLastLogin=null, apiVersionLastLogin=null, numfriendRequested=0, numCoolMatchReceived=0, email=test@naver.com, thumbnailImageUrlPostfix=null, profileImageUrlPostfix=null, profileImageState=NOT_UPLOADED]
+
+http -v POST localhost:8080/json jsonrpc="2.0" method="loginWithEmail" params:='[{"email": "test@naver.com", "password": "tested", "localeInfo": {"languageCode": "20", "countryCode": "kr"}, "deviceId": "samsung_galaxy"}]' id="test_request"
